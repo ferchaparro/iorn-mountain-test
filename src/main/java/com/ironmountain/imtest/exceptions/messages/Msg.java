@@ -1,0 +1,22 @@
+package com.ironmountain.imtest.exceptions.messages;
+
+public enum Msg {
+    USER_CANT_BE_NULL,
+    USER_EXISTS,
+    USER_NOT_FOUND,
+    INCORRECT_PASSWORD,
+
+    CONTACT_CANT_BE_NULL,
+    CONTACT_EXISTS,
+    CONTACT_NOT_FOUND,
+    CONTACT_SAVED_OK,
+    CONTACT_UPDATED_OK,
+    CONTACT_DELETED_OK,
+
+    //TOKEN RELATED
+    TOKEN_USER_ID_NULL,
+
+    FILE_UPLOADED,
+    FILE_NOT_SUPPORTED,
+    FILE_CONTENT_NOT_CORRECT
+}
